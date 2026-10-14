@@ -11,5 +11,11 @@ def calc():
         print(num_1 * num_2)
     elif num_3 == '/':
         print(num_1 / num_2)
+    elif num_3 == '//':
+        print(num_1 // num_2)
+    elif num_3 == '**':
+        print(num_1 ** num_2)
+    elif num_3 == '%':
+        print(num_1 % num_2)
 
 calc()
